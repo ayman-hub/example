@@ -123,6 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Image.asset('images/Enter-OTP-cuate@2x.png'),
             InkWell(
               onTap: cancelTap,
               child: Text(
